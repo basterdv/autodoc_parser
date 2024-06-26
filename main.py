@@ -2,11 +2,7 @@ import requests
 
 
 def car_data(vin):  # Данные по автомобилю из введенного номера кузова
-    vin_1 = 'WAUBH54B11N111054'
-    vin_2 = 'FNN15-502358'
-    vin_3 = 'KMHJN81BP9U044420'
-    vin_4 = 'Z25A-0014596'
-
+   
     url = f'https://catalogoriginal.autodoc.ru/api/catalogs/original/cars/{vin}/modifications'
 
     print(f'Вин номера или номер кузова автомобиля - {vin}')
